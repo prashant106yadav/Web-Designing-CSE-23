@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    div p{
+            color:yellow;
+    }
+
+    .box >p {
+            background-color: blue;
+    }
+      <!-- target next child which is out of div-->  
+    div~p{
+        color: red;
+    }
+
+    a:hover{
+        color: pink;
+        font-size: 20px;
+    }
+
+   /* 
+    a:active {
+        color: blueviolet;
+    } */
+
+    /* a:visited {
+        color: brown;
+    }
+     */
+
+     ul{
+        list-style-type:none; display:flex;
+     }
+
+     ul li{
+        margin: 20px; border-right: 1px solid #999;
+        padding-right: 20px;
+     }
+
+     ul li:hover{
+           color: saddlebrown; 
+     }
+
+     ul li:nth-child(5) {
+        border-right: 0px;
+     }
+
+     .para {
+        color: green;
+     }
+
+     .para ::first-letter{
+        color: blue;
+     }
+
+    .para ::first-line {
+        background-color: skyblue;
+    }
+
+    .para :: after {
+        content:" read more";
+        color: bisque;
+        font-size: 20px;
+    }
+
+    
+
+
+
+</style>
+
+</head>
+<body>
+    <div class="box">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Veritatis molestias quibusdam placeat veniam expedita atque numquam aliquid in optio. Adipisci.
+        </p>
+
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Suscipit officia necessitatibus alias quibusdam quae natus pariatur aut vero minima quam!</p>
+        </div>
+
+    </div>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit nisi facere
+        , natus dolores, eum illo libero dignissimos rerum recusandae dolorum error dolor
+        ibus asperiores deserunt saepe esse ducimus velit sed corporis numquam! Beatae architecto co
+        rporis, consequuntur laboriosam qui consectetur esse expedita volupugiat saepe nostrum maiores.
+    </p>
+
+    <!-- CSS pseudo classes -->
+     <a href="">Visit this link</a>
+
+     <ul>
+        <li> home </li>
+        <li> services </li>
+        <li> about </li>
+        <li> gallery </li>
+        <li> contact </li>
+     </ul>
+
+     <!-- CSS pseudo Elememt : style a specific part of an elememnt-->
+      <p class="para">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et minima exercitationem dicta quam ratione, accusant
+        ium id repudiandae earum quis? Velit?
+
+
+      </p>
+
+    
+</body>
+</html>
