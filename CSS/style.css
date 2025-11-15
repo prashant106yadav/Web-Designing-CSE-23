@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* background-color: pink;
+    background-image: url(stars.jpg);
+    background-position: ;
+    background-repeat: no-repeat;
+    background-size: ; */
+
+    background: url(peacock.jpeg) no-repeat ;
+    background-size: cover;
+
+    p{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size:x-large;
+        color: yellow;
+        font-weight: 700;
+        font-style: italic;
+        text-align: center;
+        text-decoration: dashed;
+        text-transform: capitalize;
+        text-shadow: 1px 1px 10px black;
+        clear: both;
+    }
+
+    #para{
+        color: hotpink;
+        font-size: larger;
+        display: block;
+        
+
+    }
+
+    img {
+        float: both;
+       
+    }
+
+}
