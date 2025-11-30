@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Property </title>
+</head>
+
+<style>
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .main {
+        background-color: blueviolet;
+        border: 3px black solid;
+        /* width: 70%; */
+        height: 1000px;
+    }
+
+    .container {
+        background-color: yellowgreen;
+        border: 3px black solid;
+        /* width: 70%; */
+        height: 1000px;
+    }
+
+    img {
+        width: 200px;
+        height: 200px;
+        margin: 10px;
+    }
+
+    #pic1 {
+        position: relative;
+        top: 50px;
+    }
+
+    /* #pic2 {
+         position: absolute;
+        top: 50px;
+    } */
+
+      #pic3 {
+        position: sticky;
+        top: 50px;
+    }
+
+      #pic4 {
+        position: fixed;
+        top: 50px;
+    }
+
+</style>
+
+<body>
+
+    <div class="main">
+        <img src="naruto.jpg" id="pic1" alt="naruto">
+        <img src="hinata.jpg" id="pic2" alt="hinata">
+        <img src="slayer.png" id="pic3" alt="slayer">
+        <img src="makima.jpg" id="pic4" alt="makima">
+    </div>
+
+    <div class="container">
+
+    </div>
+
+</body>
+
+</html>
