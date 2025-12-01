@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox 3</title>
+    <style>
+
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .main {
+            width: 1000px;
+            height: 500px;
+            background-color: beige;
+            border: 5px black solid;
+            box-sizing: border-box;
+            display: flex;
+            margin: 100px 300px  ;
+
+        }
+
+        .container {
+            width: 50%;
+            height: %;
+            background-color: chartreuse;
+            border: 3px black dashed;
+            margin: 30px;
+            padding: 10px;
+        }
+
+        #top {
+            width: 450px;
+            height: 120px;
+            background-color: red;
+            border: 3px black dashed;
+            margin: 10px;
+
+        }
+
+           #middle {
+            width: 450px;
+            height: 120px;
+            background-color: red;
+            border: 3px black dashed;
+            margin: 10px;
+
+        }
+
+           #bottom {
+            width: 450px;
+            height: 120px;
+            background-color: red;
+            border: 3px black dashed;
+            margin: 10px;
+        }
+
+            .mid {
+            width: 50%;
+            height: 50%;
+            background-color: green;
+            border: 3px black dashed;
+            margin: 5px;
+            flex-direction: row;
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <div class="main">
+
+        <div class="container">
+            Right
+        </div>
+
+        <div class="container">
+
+            <div id="top"></div>
+
+            <div id="middle">
+
+                <div class="mid"></div>
+                <div class="mid"></div>
+
+            </div>
+
+            <div id="bottom"></div>
+
+        </div>
+    </div>
+
+    
+</body>
+</html>
