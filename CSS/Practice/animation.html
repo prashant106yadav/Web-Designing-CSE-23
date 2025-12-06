@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation </title>
+    <style>
+        * {
+            margin: 0x;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: yellowgreen;
+        }
+
+        h1 {
+            color: skyblue;
+            /* text-align: center; */
+            text-decoration: underline;
+            text-shadow: 5px 3px 3px red;
+            position: relative;
+            animation-name: heading;
+            animation-duration: 5s;
+            animation-delay: 0s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-timing-function: linear;
+        }
+
+        @keyframes heading {
+            from {
+                top: 0px;
+                left: 0px;
+            }
+
+            to {
+                top: 0px;
+                left: 500px;
+            }
+        }
+
+        .image {
+            width: 100vh;
+            height: 100vh;
+        }
+
+        img {
+            width: 300px;
+            height: 200px;
+            position: relative;
+            animation: onepiece 10s linear 0s infinite alternate;
+        }
+
+        @keyframes onepiece {
+            0% {
+                left: 0px;
+                top: 0px;
+            }
+
+            25% {
+                left: 1000px;
+                top: 0px;
+            }
+
+            50% {
+                left: 1000px;
+                top: 300px;
+            }
+
+            75% {
+                left: 0px;
+                top: 300px;
+            }
+
+            100% {
+                left: 0px;
+                top: 0px;
+
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>One Piece </h1>
+
+    <div id="image">
+        <img src="one.jpg" alt="one piece">
+        <p style="font-size: large;">
+            One Piece (stylized in all caps) is a Japanese manga series written and illustrated by Eiichiro Oda. It
+            follows the adventures of Monkey D. Luffy and his crew, the Straw Hat Pirates, as he explores the Grand Line
+            in search of the mythical treasure known as the "One Piece" to become the next King of the Pirates.
+
+            The manga has been serialized in Shueisha's shōnen manga magazine Weekly Shōnen Jump since July 1997, with
+            its chapters compiled in 112 tankōbon volumes as of July 2025. It was licensed for an English language
+            release in North America and the United Kingdom by Viz Media and in Australia by Madman Entertainment.
+            Becoming a media franchise, it has been adapted into a festival film by Production I.G, and an anime series
+            by Toei Animation, which premiered in October 1999. Additionally, Toei has developed 14 animated feature
+            films and one original video animation (OVA). Several companies have developed various types of
+            merchandising and media, such as a trading card game and video games. Netflix released a live-action TV
+            series adaptation in 2023.
+
+            One Piece has received praise for its storytelling, expansive worldbuilding, art, characterization, and
+            humor. It is regarded by critics and readers as one of the greatest manga series of all time. By August
+            2022, it had over 516.6 million copies in circulation worldwide, making it the best-selling manga series
+            ever and the best-selling comic series in volume format. It holds various publishing records, including the
+            highest initial print run for any book in Japan. In 2015 and 2022, it set the Guinness World Records for
+            "most copies published for the same comic book series by a single author". It was the best-selling manga for
+            11 consecutive years (2008–2018) and remains the only series with over 3 million initial prints for over ten
+            years, as well as the only one with every of its over 100 published tankōbon volumes selling over 1 million
+            copies. Since 2008, it has consistently ranked first in Oricon's weekly comic chart.
+        </p>
+
+
+    </div>
+
+
+</body>
+
+</html>
