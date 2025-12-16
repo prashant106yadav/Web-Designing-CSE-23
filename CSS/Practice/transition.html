@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transitions </title>
+    <style>
+
+        h1 {
+            text-align: center;
+            color: chocolate;
+            text-decoration: underline;
+            transition: all, transform 3s;
+            text-shadow: 2px 2px 2px;
+        }
+        h1:hover {
+            color: orange;
+            transform: rotate(360deg);
+            
+        }
+        .main {
+            background-color: beige;
+            border: 5px solid black;
+            height: 600px;
+            width: 1000px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left:300px;
+            transition: all;
+        }
+        .main:hover {
+            background-color: pink;
+            box-shadow: -10px 10px 3px;
+        }
+
+        #one {
+            background-color: yellowgreen;
+            border: 3px solid red;
+            width: 400px;
+            height: 500px;
+            margin: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: all ,transform 3s;
+        }
+        #one:hover {
+            background-color: green;
+            box-shadow: -5px 5px 3px ;
+            border-radius: 80%;
+            border-style: dotted;
+            transform: rotate(180deg);
+        }
+
+        #two {
+            background-color: blue;
+            border: 3px solid orange;
+            width: 400px;
+            height: 500px;
+            margin: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: all,transform 10s;
+        }
+           #two:hover {
+            background-color: yellow;
+            box-shadow: -5px 5px 3px ;
+            border-radius: 40%;
+            border-style: dotted;
+            transform: rotate(180deg);
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Transition</h1>
+    <div class="main">
+        <div id="one">Prashant</div>
+        <div id="two">Yadav</div>
+    </div>
+    
+</body>
+</html>
