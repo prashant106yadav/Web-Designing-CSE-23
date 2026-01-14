@@ -9,7 +9,7 @@ body {
 }
 
 .navbar {
-    width: 100vw;
+    width: 100%;
     /* height: 100px; */
     height: 65px;
     background-color: black;
@@ -174,7 +174,7 @@ body {
 /* Lower Nvabar */
 
 .navbar-2 { 
-    width: 100vw;
+    width: 100%;
     height: 40px;
     color: white;
     background-color: #252b2bff;
@@ -392,7 +392,7 @@ body {
 
 .footer-1 {
     width: 100%;
-    height: 480px;
+    height: auto;
     background-color: #232F3E;
     padding-left: 50px;
     padding-right: 50px;
@@ -400,14 +400,15 @@ body {
    
 }
 .footer-1-content {
-    width: 30%;
-    height: 480px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    border: 2px solid white;
+    /* width: 250px; */
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
     margin-left: 100px;
     margin-right: 100px;
-    gap: 10px;
-    padding: 10px;
+    /* gap: 10px; */
+    padding: 5px;
     color: white;
 }
 .footer-1-content h3 {
@@ -441,6 +442,7 @@ body {
 #footer-logo img {
     width: 80px;
     height: 40px;
+    border-radius: 3px;
 }
 
 .footer-language {
@@ -469,7 +471,7 @@ body {
 }
 .footer-country {
     width: 100px;
-    height: 40px;
+    height: 38px;
     border: 1px solid white;
     border-radius: 3px;
     display: flex;
@@ -495,7 +497,7 @@ body {
 /* FOOTER 3 */
 .footer-3 {
     width: 100%;
-    height: 500px;
+    height: 300px;
     background-color: #131A22;
 }
 .part-1 {
@@ -515,15 +517,50 @@ body {
     height: 60px;
     background-color: red;
 }
+.part-1-content a {
+    text-decoration: none;
+    color: white;
+}
 .part-1-content li {
     list-style-type: none;
     font-size: 12px;
 }
-}
 .part-1-content h5 {
     font-size: 12px;
 }
-
 .effect:hover {
     text-decoration: underline;
+}
+
+
+.part-2 {
+    padding: 5px;
+    /* margin: 10px; */
+}
+.part-2-content {
+    width: 100%;
+    margin: 10px;
+    /* padding: 5px; */
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+}
+.part-2-content li {
+    list-style-type: none;
+    padding: 10px;
+    color: white;
+    font-size: 12px;
+}
+.part-2-content li:hover {
+    text-decoration: underline;
+}
+.part-2-content a {
+    text-decoration: none;
+    display: flex;
+}
+#affiliates {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
 }
